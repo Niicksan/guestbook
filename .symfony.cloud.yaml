@@ -4,6 +4,8 @@ type: php:7.4
 
 runtime:
     extensions:
+        - xsl
+        - amqp
         - pdo_pgsql
         - apcu
         - mbstring
@@ -24,6 +26,7 @@ disk: 512
 
 relationships:
     database: "db:postgresql"
+    rabbitmq: "queue:rabbitmq"
 
 web:
     locations:
@@ -49,3 +52,8 @@ hooks:
         set -x -e
 
         (>&2 symfony-deploy)
+
+workers:
+    messages:
+        commands:
+            start: symfony console messenger:consume async -vv --time-limit=3600 --memory-limit=128M

@@ -23,28 +23,58 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cec27f95-d648-406e-a50a-085722e3c2d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/migrations/Version20210205134933.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/Version20210205135433.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/photos/1a755ecd8f0a.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/photos/37cb62d2df1d.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EntityListener/ConferenceEntityListener.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EventSubscriber/TwigEventSubscriber.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Form/CommentFormType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/mailer.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/messenger.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/test/dama_doctrine_test_bundle.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/secrets/dev/dev.AKISMET_KEY.ca01fb.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/secrets/dev/dev.decrypt.private.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/secrets/dev/dev.encrypt.public.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/secrets/dev/dev.list.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dump.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/Version20210206092412.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/Version20210206163549.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/photos/26bc0b554c96.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/photos/4f50e63964ba.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/photos/5e2e4d2d4246.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/photos/645a6e685456.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/photos/69bd1af898a3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/photos/6dea342b578a.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/photos/7e59fcea2626.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/photos/93e8ef860cd3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/photos/amsterdam.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/photos/b93dd23e8778.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/photos/dbf5c0ef104b.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/photos/e47ae866cd78.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/AdminController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Admin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Message/CommentMessage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MessageHandler/CommentMessageHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/AdminRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SpamChecker.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/admin/review.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/emails/comment_notification.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Controller/ConferenceControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/guestbook.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/guestbook.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.symfony.cloud.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.symfony.cloud.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.symfony/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.symfony/services.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/packages/easy_admin.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/easy_admin.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/ConferenceController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ConferenceController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/Comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Comment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Conference.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Conference.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/ConferenceRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/ConferenceRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/CommentRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/CommentRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/conference/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/conference/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/conference/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/conference/show.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,6 +176,23 @@
       <path value="$PROJECT_DIR$/vendor/twig/intl-extra" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
       <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client" />
+      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/browser-kit" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
+      <path value="$PROJECT_DIR$/vendor/dama/doctrine-test-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/messenger" />
+      <path value="$PROJECT_DIR$/vendor/symfony/workflow" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mailer" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/lorenzo/pinky" />
+      <path value="$PROJECT_DIR$/vendor/twig/cssinliner-extra" />
+      <path value="$PROJECT_DIR$/vendor/twig/inky-extra" />
     </include_path>
   </component>
   <component name="ProjectId" id="1nyp6TvoGwIF72ZxTi6Mr6FO4IM" />
@@ -175,7 +222,7 @@
       <updated>1612372011365</updated>
       <workItem from="1612372014377" duration="4921000" />
       <workItem from="1612426477999" duration="11465000" />
-      <workItem from="1612523055276" duration="11635000" />
+      <workItem from="1612523055276" duration="36162000" />
     </task>
     <servers />
   </component>
@@ -202,10 +249,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="274" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1612375130784" />
-    <state x="450" y="87" key="NewPhpClassDialog" timestamp="1612533671620">
+    <state x="450" y="87" key="NewPhpClassDialog" timestamp="1612694961071">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="450" y="87" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1612533671620" />
+    <state x="450" y="87" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1612694961071" />
+    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1612694937357">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1612694937357" />
     <state x="184" y="9" key="SettingsEditor" timestamp="1612442113721">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

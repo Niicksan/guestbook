@@ -39,6 +39,7 @@ web:
 
 mounts:
     "/var": { source: local, source_path: var }
+    "/public/uploads": { source: service, service: files, source_path: uploads }
 
 hooks:
     build: |
@@ -52,6 +53,14 @@ hooks:
         set -x -e
 
         (>&2 symfony-deploy)
+crons:
+    comment_cleanup:
+        # Cleanup every night at 11.50 pm (UTC).
+        spec: '50 23 * * *'
+        cmd: |
+            if [ "$SYMFONY_BRANCH" = "master" ]; then
+                croncape symfony console app:comment:cleanup
+            fi
 
 workers:
     messages:

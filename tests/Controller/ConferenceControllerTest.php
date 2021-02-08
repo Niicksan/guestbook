@@ -54,6 +54,4 @@ class ConferenceControllerTest extends PantherTestCase
 //       $this->assertSelectorTextContains('h2', 'Amsterdam 2019');
 //       $this->assertSelectorExists('div:contains("There are 1 comments")');
 //    }
-
-
 }

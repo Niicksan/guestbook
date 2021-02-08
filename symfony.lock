@@ -121,6 +121,9 @@
     "egulias/email-validator": {
         "version": "2.1.25"
     },
+    "imagine/imagine": {
+        "version": "1.2.4"
+    },
     "lorenzo/pinky": {
         "version": "1.0.5"
     },
@@ -350,6 +353,18 @@
             "./config/packages/test/monolog.yaml"
         ]
     },
+    "symfony/notifier": {
+        "version": "5.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "5.0",
+            "ref": "c31585e252b32fe0e1f30b1f256af553f4a06eb9"
+        },
+        "files": [
+            "./config/packages/notifier.yaml"
+        ]
+    },
     "symfony/options-resolver": {
         "version": "v5.0.11"
     },
@@ -391,6 +406,9 @@
     },
     "symfony/polyfill-php80": {
         "version": "v1.22.0"
+    },
+    "symfony/process": {
+        "version": "v5.0.11"
     },
     "symfony/profiler-pack": {
         "version": "v1.0.5"
@@ -518,6 +536,28 @@
             "./config/packages/dev/web_profiler.yaml",
             "./config/packages/test/web_profiler.yaml",
             "./config/routes/dev/web_profiler.yaml"
+        ]
+    },
+    "symfony/webpack-encore-bundle": {
+        "version": "1.9",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "1.9",
+            "ref": "579d8de06df2ceb34d39e84e84c0c051b9b5ac68"
+        },
+        "files": [
+            "./assets/app.js",
+            "./assets/bootstrap.js",
+            "./assets/controllers.json",
+            "./assets/controllers/hello_controller.js",
+            "./assets/styles/app.css",
+            "./config/packages/assets.yaml",
+            "./config/packages/prod/webpack_encore.yaml",
+            "./config/packages/test/webpack_encore.yaml",
+            "./config/packages/webpack_encore.yaml",
+            "./package.json",
+            "./webpack.config.js"
         ]
     },
     "symfony/workflow": {
